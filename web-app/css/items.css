@@ -1,0 +1,1132 @@
+/*
+Iphone Dimensions:
+http://developer.apple.com/webapps/designingcontent.php
+Wenn Browser Bar eingeblendet: 320*356
+Browserbar Höhe: 60
+
+
+*/
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+        height: 100%;
+        background-color:#fff;
+}
+
+.yui-tip {
+    
+}
+
+#header {
+	width:100%;
+	background-color: #000;
+        padding-top: 5px;
+}
+
+div#toptoolbar {
+        overflow:hidden;
+        display:block;
+        background-color:#fff;
+        border-top-left-radius: 9px 9px;
+        border-top-right-radius: 9px 9px;
+        border: 1px solid #000000;
+        padding-bottom: 5px;
+        padding-top: 3px;            
+}
+
+form#wrapperForm {
+        margin-top: 3px;
+        margin-left: 3px;
+}
+
+div#additionaltoolarea {
+        height:33px;
+        background-color:#6d84a2;
+        display:block;
+        width:100%;
+        vertical-align: middle;
+}
+
+div#toptoolbar form {
+        display:inline;
+}
+
+div input.inputedit_topbar{
+    font-size:12pt;
+    font-weight: bold;
+    color: #111055;
+    background-color: white;
+    display:inline;
+}
+
+div input.inputedit_topbar_error{
+
+    margin-top:12px;
+    margin-left:5px;
+    /*margin-bottom:3px;*/
+    font-size:16pt;
+    font-weight: bold;
+    color: #111055;
+    display:inline;
+    background-color:#FDD;
+    border: 2px solid #F00;
+}
+
+div.errormessage{
+    color: red;
+    font-family:Arial;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom:3px;
+    margin-left:3px;
+    font-size:10pt;
+    padding: 0px; 
+}
+
+div.inputedit_createitem{
+    margin-bottom: 3px;
+    margin-left: 3px;
+
+}
+
+div.inputedit_createitem input{
+
+    border: 1px solid #00F;
+    color: #000000;
+    margin-top:3px;
+    margin-left:3px;
+    margin-bottom: 3px;
+    width: 95%;
+    display:inline;
+}
+
+div.inputedit_createitem_error{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+input.addDate {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    padding-bottom: 3px;
+    background-color: transparent;
+}
+
+input.editDate {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    background-color: transparent;
+}
+
+div.inputedit_createitem_error input{
+    color: #000000;
+    margin-top:3px;
+    margin-left:8px;
+    margin-bottom: 3px;
+    width: 95%;
+    color: #111055;
+    background-color:#FDD;
+    border: 2px solid #F00;
+    display:inline;
+}
+
+a#toggleDateLink {
+    margin-left: 10px;
+    margin-top: 16px;
+
+}
+
+div#toptoolbar input {
+	color: #000000;
+        margin-top:0px;
+        margin-left:0px;
+        display:inline;
+}
+
+div#additionaltoolarea * {
+        color: #FFFFFF;
+}
+
+div#additionaltoolarea form {
+        display:inline;
+}
+
+div#additionaltoolarea input {
+	color: #000000;
+        margin-top:3px;
+        margin-left:3px;
+        display:inline;
+}
+
+div#additionaltoolarea .left {
+	/*background-color:green;*/
+	/*width: 60%;*/
+	float: left;
+	/*margin:5px;*/
+}
+
+div#additionaltoolarea .right {
+	/*background-color:grey;*/
+	float: right;
+	/*margin:5px;*/
+	text-align: right;
+}
+
+textarea#notes {
+    width: 95%;
+    height: 5em;
+    margin-left: 3px;
+    padding: 3px;
+}
+
+div#homefunctionarea {
+}
+
+div#notesarea {
+    background-color:#FFF;
+    padding: 6px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    overflow: hidden;
+}
+
+div#restoflist {
+    background-color:#aaa;
+    color: #fff;
+    padding: 6px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    overflow: hidden;
+    padding-bottom: 999px;
+}
+
+searchResults {
+    /*	min-height:390px;*/
+/*	width:320px;*/
+	width:100%;
+        min-height: 0px; /* 60 Same as min-height von Childitem!!*/   /*IPHONE 241 wenn addressleiste eingeblendet 301 wenn ausgeblendet*/
+        /*height: 301px; /*IPHONE 241 wenn addressleiste eingeblendet 301 wenn ausgeblendet */
+/*	position:absolute;
+	top:60px; vlg. mainitem
+	left:0px;*/
+/*	padding-top:60px;  muss noch dynamisch angepasst werden auf größe des Hauptitems
+        padding-bottom:40px;  kommt von Höhe der des bottom navigators */
+	/*background-color:pink;*/
+	/*z-index:0;*/
+        /*overflow:auto;*/
+        display:block;
+}
+
+div#listarea {
+	width:100%;
+        min-height: 0px; 
+        display:block;
+}
+
+
+div .tagcheckboxlist {
+
+}
+
+div .tagCheckboxListElement {
+
+    min-height:30px;
+    /*background:yellow;*/
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #E0E0E0; 
+    bottom:1px;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+
+
+div.groupseparator {
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+    padding-left: 6px;
+    background-color: #F5F5F5;
+    /*background:url(../images/styleimages/listGroup.png) repeat-x;*/
+    font-size:12px;
+    font-weight:bold; 
+    color:#555;
+    height:16px;
+    vertical-align: middle;
+}
+
+
+
+div.extendCalendarDateRange {
+    min-height:25px;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+    background:gray;
+}
+
+
+div#bottomtoolbar {
+
+        /*background: url(../images/styleimages/bottomtoolbar.png) #6d84a2 repeat-x;*/
+	border: 1px solid #000;
+        overflow:hidden;
+        clear:both;
+        height:33px;
+        background-color:#fff;
+        display:block;
+
+        border-bottom-left-radius: 9px 9px;
+        border-bottom-right-radius: 9px 9px;
+}
+
+div#stagetoolbar {
+        overflow:hidden;
+        clear:both;
+        height:45px;
+        display:block;
+        width:100%;
+}
+
+div#messagebox {
+        position:absolute;
+        z-index:+1;
+        clear:both;
+        /*background-color:pink;*/
+        display:block;
+        /*width:230px;         Mindestgröße wird von JavaScript auf window.innerWidth getrimmt*/
+        /*height:30px;*/
+        /*margin: 10px 40px;*/
+        margin: 30px 20px;
+}
+
+.shortmessage {
+    background: #f3f8fc;
+    border: 1px solid #b2d1ff;
+    color: #006dba;
+    /*margin: 0px 0 0px 0;*/
+    padding: 5px 10px 5px 10px
+}
+
+
+
+div.childitem {
+        border-bottom: 1px solid #000;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+	background-color:#eee;
+        overflow:hidden;     
+}
+
+.fieldnoborder {
+    /*border-top: 0px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;*/
+    border-color: #000;
+    background: #EEE;
+}
+
+.itemname {
+	font-size: 16px;
+	font-weight: bold;
+        font-family:Arial;
+        color: #555;
+	display: inline-block;
+        margin-top: 9px;
+        margin-left: 6px;
+        margin-bottom: 0px;
+        overflow: hidden;
+}
+
+a.itemnametop {
+	font-size: 17px;
+	font-weight: bold;
+        font-family:Arial;
+        color: #000;
+	display: inline-block;
+        margin-top: 9px;
+        margin-left: 6px;
+        margin-bottom: 0px;
+        overflow: hidden;
+}
+
+.dialogfont {
+        font-family: Arial;
+        font-size: 14px;
+	font-weight: bold;
+        color: #333;
+	display: inline-block;
+}
+
+a.taglinktop {
+        display:inline;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+        background-color: transparent;
+        white-space: nowrap;
+        color: #000;
+}
+
+a.taglinklist {
+        display:inline;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+        background-color: transparent;
+        white-space: nowrap;
+        color: #00F;
+}
+
+div#itemname_edit {
+	font-size: 16px;
+	font-weight: bold;
+        font-style:normal;
+	display: inline-block;
+}
+
+
+
+.buttons_in_bottomtoolbar {
+    /*background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;*/
+    /*border: 1px solid #ccc;*/
+    /*color: #666;*/
+    font-size: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.button {
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    /*border: 1px solid #ccc;*/
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    overflow: hidden;
+    margin-left: 0px;
+    padding: 2px 2px;
+
+}
+
+
+
+.calendar_datelabel {
+        font-size: 16px;
+	font-weight: bold;
+        font-family:Arial;
+	display: inline-block;
+        margin-top: 4px;
+        margin-left: 3px;
+        margin-bottom: 0px;
+}
+
+.calendar_childdatelabel {
+        color:red;
+        font-family:Arial;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+        padding-top: 0px;
+
+}
+
+.calendar_itemname {
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+        margin-left: 3px;
+        margin-top: 3px;
+        margin-bottom: 6px;
+}
+
+.childcountTop {
+	display: inline-block;
+	font-size: 16px;
+        font-weight: bold;
+        font-family: Arial;
+        background-color: #c3cbd4;
+
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border: 0px solid #FFF;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        white-space: nowrap;
+}
+.childcountList {
+	display: inline-block;
+	font-size: 16px;
+        font-weight: bold;
+        font-family: Arial;
+        background-color: #BBB;
+        color: #FFF;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border: 1px solid #bbb;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 3px;
+        padding-right: 3px;
+        white-space: nowrap;
+        margin-left: 3px;
+}
+
+.datechild {
+    background-color: #fff;
+    min-height: 32px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    overflow:hidden;    
+}
+
+
+/* TAGLIST STYLES */
+
+ul.taglist {
+	padding:0px;
+        margin: 0;
+}
+ul.taglist li {
+	display:inline;
+        color: #0000FF;
+	font-size: 12px;
+	padding:0px;
+        margin: 0px;
+}
+
+ul.taglist a {
+        color: #0000FF;
+}
+
+ul.calendar_taglist {
+	/*background-color:blue;*/
+	display:inline; /*umstellen um dates nicht in gleicher zeile anzuzeigen*/
+	padding:0px;
+        margin-left: 12px;
+}
+
+ul.calendar_taglist li {
+	/*display:inline;
+	background-color:red;
+        color:blue;
+        font-weigth: normal;
+	font-size: 12px;
+	padding-right:4px;*/
+}
+
+ul.calendar_datetaglist {
+	/*background-color:blue;
+	display:inline; umstellen um dates nicht in gleicher zeile anzuzeigen
+	margin-left: 3px;
+        margin-top: 1px;
+        margin-left: 12px;*/
+}
+
+ul.calendar_datetaglist li {
+	display:inline;
+	/*background-color:red;*/
+        color:blue;
+        font-weigth: normal;
+	font-size: 12px;
+	padding-right:3px;
+}
+
+ul.datetaglist {
+	padding:0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 3px;
+}
+ul.datetaglist li {
+	display:inline;
+        color: #0000FF;
+	font-size: 12px;
+	padding-right:0px;
+        padding-left: 0px;
+}
+
+
+/* LEFT, RIGHT & WHOLE */
+
+.left {
+	float: left;
+        overflow: hidden;
+}
+
+.right {
+	/*background-color:grey;*/
+	float: right;     
+	/*margin:5px;*/
+	text-align: right;
+}
+
+.clearfloat {
+	/*background-color:yellow;*/
+	clear:left;
+}
+
+.listinfo {
+    text-align:left;
+    margin:10px;
+    margin-top:12px;
+    color: #fff;
+}
+
+a.datelink {
+        display:inline;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+        margin-left: 4px;
+        margin-right: 0px;
+        margin-top: 4px;
+        margin-bottom: 0px;
+        background-color: transparent;
+        white-space: nowrap;
+        color: #F00;
+}
+
+/* BUTTONS */
+
+.logoCalendar {
+	width:29px;
+	height:30px;
+	background-image:url(../images/styleimages/logoCalendar.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 2px;
+        margin-left: 4px;
+        margin-right: 3px;
+        margin-bottom: 1px;
+}
+
+.logoLogbook {
+	width:29px;
+	height:30px;
+	background-image:url(../images/styleimages/logoLogbook.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 2px;
+        margin-left: 4px;
+        margin-right: 3px;
+        margin-bottom: 1px;
+}
+
+.logoInbox {
+	width:29px;
+	height:30px;
+	background-image:url(../images/styleimages/logoInbox.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 2px;
+        margin-left: 4px;
+        margin-right: 3px;
+        margin-bottom: 1px;
+}
+
+a.checkButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/checkButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 5px;
+        margin-bottom: 3px;
+        margin-right: 4px;
+}
+
+a.checkButtonChecked {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/checkButtonChecked.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-right: 4px;
+}
+
+a.editItemButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/editItemButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-right: 4px;
+}
+
+a.stageMenuButton_user {
+	width:41px;
+	height:35px;
+	background-image:url(../images/styleimages/stageMenuButton_user.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+a.stageMenuButton_calendar {
+	width:41px;
+	height:35px;
+	background-image:url(../images/styleimages/stageMenuButton_calendar.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+a.stageMenuButton_search {
+	width:41px;
+	height:35px;
+	background-image:url(../images/styleimages/stageMenuButton_search.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+a.stageMenuButton_home {
+	width:41px;
+	height:35px;
+	background-image:url(../images/styleimages/stageMenuButton_home.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+a.stageMenuButton_add {
+	width:41px;
+	height:35px;
+	background-image:url(../images/styleimages/stageMenuButton_add.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+a.stageMenuButton_back {
+	width:41px;
+	height:35px;
+	background-image:url(../images/styleimages/stageMenuButton_back.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+a.editListButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/editListButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-left: 4px;
+}
+
+a.helpButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/helpButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+a.delDateButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/delDateButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 3px;
+}
+
+a.backButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/backButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+}
+
+a.cancelButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/cancelButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+}
+
+a.homeButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/homeButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-right: 3px;
+}
+
+a.searchButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/searchButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+a.delButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/delButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-right: 3px;
+        border-width: 0px;
+        background-color: transparent;
+}
+
+a.delAllButton{
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/delAllButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-right: 3px;
+}
+
+a.delButtonActive {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/delButtonActive.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-right: 3px;
+        border-width: 0px;
+        background-color: transparent;
+}
+
+
+a.addButton {
+	width:40px;
+	height:26px;
+	background-image:url(../images/styleimages/addButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+a.adminButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/adminButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+a.delFromLogButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/delFromLogButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-right: 3px;
+}
+
+a.restoreButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/restoreButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+
+}
+
+.tagButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/tagButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+.dateButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/dateButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+}
+
+a.unchainButton {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/unchainButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+}
+
+ a.unchainButtonActive {
+	width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/unchainButtonActive.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        background-color: transparent;
+        border-width: 0px;
+}
+
+a.searchButton {
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/searchButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+a.arrowUpButton {
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/arrowUpButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+a.arrowDownButton {
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/arrowDownButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+
+a.logoutButton {
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/logoutButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-right: 3px;
+        margin-bottom: 3px;
+}
+
+a.renameButton {
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/renameButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+a.noteButton {
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/noteButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+a.editButton {
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/editButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-right: 3px;
+        margin-bottom: 3px;
+}
+
+a.settingsButton {
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/settingsButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-right: 3px;
+}
+
+a.previousButton {
+        margin-top:2px;
+        width:13px;
+	height:13px;
+	background-image:url(../images/styleimages/previousButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+a.nextButton {
+        margin-top:2px;
+        width:13px;
+	height:13px;
+	background-image:url(../images/styleimages/nextButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+a.xButton {
+        margin-bottom:-1px;
+        margin-left: 2px;
+        width:13px;
+	height:13px;
+	background-image:url(../images/styleimages/xButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+.noborder {
+    border:0px;
+}
+
+.vAlignMiddle {
+    vertical-align: middle;
+}
+
+a.tagNotAssigned {
+        float:right;
+        margin-right:3px;
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/checkBox.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+a.tagAssigned {
+        float:right;
+        margin-right:3px;
+        width:26px;
+	height:26px;
+	background-image:url(../images/styleimages/checkBoxChecked.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+#nested-form-bug {
+	position: absolute !important;
+	left: -2500px !important;
+	width: 20px !important;
+}
+
+
+/*  iScroll CSS */
+
+body,ul,li {
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+body {
+	font-size:12px;
+	font-family:helvetica;
+}
+
+.taglistarea {
+    background-color: #fff;
+    min-height: 32px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    overflow:hidden;      
+}
+
+#footer {
+	width:100%;
+	padding:0px;
+        margin: 0px;
+}
+
+#wrapper {
+	height:600px;		/* Of course you need to specify the object height */
+
+	position:relative;	/* On older OS versions "position" and "z-index" must be defined (absolute | relative), */
+	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
+
+	width:100%;
+	/*background:#aaa;*/
+	overflow:scroll;
+}
+
+#scroller {
+/*	-webkit-touch-callout:none;*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+
+	float:left;
+	width:100%;
+	padding:0;
+
+/*	-webkit-box-shadow:0 0 8px #555;	/* Don't use box shadows, they slow down drastically CSS animations */
+}
+/*
+#scroller ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:100%;
+	text-align:left;
+}
+
+#scroller li {
+	padding:0 10px;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #fff;
+	background-color:#fafafa;
+	font-size:14px;
+}
+
+#scroller li > a {
+	display:block;
+}
+*/

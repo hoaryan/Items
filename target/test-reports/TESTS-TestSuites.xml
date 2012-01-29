@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ryan" id="0" name="AuthServiceTests" package="" tests="1" time="0.086" timestamp="2012-01-28T16:21:54">
+      <properties />
+
+      <testcase classname="AuthServiceTests" name="testSomething" time="0.086" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ryan" id="1" name="ErrorControllerTests" package="" tests="1" time="0.424" timestamp="2012-01-28T16:21:54">
+      <properties />
+
+      <testcase classname="ErrorControllerTests" name="testSomething" time="0.424" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ryan" id="2" name="ItemDateControllerTests" package="" tests="1" time="0.035" timestamp="2012-01-28T16:21:54">
+      <properties />
+
+      <testcase classname="ItemDateControllerTests" name="testSomething" time="0.035" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ryan" id="3" name="ItemDateTests" package="" tests="1" time="0.0020" timestamp="2012-01-28T16:21:54">
+      <properties />
+
+      <testcase classname="ItemDateTests" name="testSomething" time="0.0020" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ryan" id="4" name="ItemServiceTests" package="" tests="1" time="0.0020" timestamp="2012-01-28T16:21:55">
+      <properties />
+
+      <testcase classname="ItemServiceTests" name="testSomething" time="0.0010" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ryan" id="5" name="ItemTagLibTests" package="" tests="1" time="0.037" timestamp="2012-01-28T16:21:55">
+      <properties />
+
+      <testcase classname="ItemTagLibTests" name="testSomething" time="0.037" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ryan" id="6" name="ItemTests" package="" tests="1" time="0.0020" timestamp="2012-01-28T16:21:55">
+      <properties />
+
+      <testcase classname="ItemTests" name="testSomething" time="0.0020" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
