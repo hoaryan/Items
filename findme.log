@@ -1,0 +1,469 @@
+[ 28.01.12 16:56:03.305] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 16:56:03.328] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 16:56:06.550] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 16:56:06.550] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 16:57:34.635] [http-8080-4] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 16:57:35.568] [http-8080-4] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 16:57:35.579] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 16:57:35.621] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 16:57:35.633] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 16:57:35.646] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 16:57:35.661] [http-8080-4] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 16:57:37.528] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 16:57:37.528] [http-8080-4] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 16:59:20.314] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 16:59:21.497] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 16:59:21.781] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 16:59:21.795] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 16:59:23.781] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 16:59:25.004] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 16:59:40.572] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 16:59:44.119] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 16:59:44.182] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 16:59:44.321] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 16:59:44.350] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 16:59:44.366] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 16:59:44.389] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 16:59:47.226] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 16:59:47.227] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 17:00:03.096] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:00:04.999] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:00:05.009] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:00:05.050] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:00:05.061] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:00:05.073] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:00:05.087] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:00:07.336] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:00:07.336] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 17:06:37.505] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 17:06:38.676] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 17:06:38.963] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 17:06:38.977] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 17:06:40.934] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 17:06:42.080] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 17:06:44.012] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:06:46.722] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:06:46.781] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:06:46.917] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:06:46.944] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:06:46.960] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:06:46.982] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:06:51.010] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:06:51.011] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:25, action:stdview, controller:item]
+[ 28.01.12 17:06:58.145] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:06:59.539] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:06:59.550] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:06:59.590] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:06:59.603] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:06:59.616] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:06:59.630] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:07:02.400] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:07:02.401] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:35, action:stdview, controller:item]
+[ 28.01.12 17:14:47.414] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 17:14:48.562] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 17:14:48.847] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 17:14:48.860] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 17:14:50.812] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 17:14:51.971] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 17:14:54.981] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:14:57.585] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:14:57.651] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:14:57.789] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:14:57.818] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:14:57.834] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:14:57.857] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:15:00.602] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:15:00.603] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:23, action:stdview, controller:item]
+[ 28.01.12 17:15:32.294] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:15:32.294] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:35, action:stdview, controller:item]
+[ 28.01.12 17:16:00.163] [http-8080-2] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:16:01.698] [http-8080-2] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:16:01.715] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:16:01.762] [http-8080-2] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:16:01.774] [http-8080-2] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:16:01.787] [http-8080-2] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:16:01.802] [http-8080-2] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:16:03.709] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:16:03.710] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:25, action:stdview, controller:item]
+[ 28.01.12 17:21:59.928] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 17:22:00.007] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 17:22:00.058] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 17:22:00.661] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 17:22:00.966] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 17:23:39.622] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 17:23:40.849] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 17:23:41.138] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 17:23:41.150] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 17:23:43.647] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 17:23:44.456] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 17:25:20.396] [http-8080-2] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:25:26.172] [http-8080-2] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:25:26.249] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:25:26.403] [http-8080-2] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:25:26.439] [http-8080-2] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:25:26.454] [http-8080-2] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:25:26.477] [http-8080-2] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:25:29.464] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:25:29.464] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 17:27:38.710] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 17:27:39.865] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 17:27:40.151] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 17:27:40.163] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 17:27:42.131] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 17:27:43.302] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 17:27:53.108] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:27:56.520] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:27:56.579] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:27:56.713] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:27:56.740] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:27:56.756] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:27:56.778] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:28:25.257] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:28:25.258] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:25, action:stdview, controller:item]
+[ 28.01.12 17:31:22.080] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 17:31:23.252] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 17:31:23.537] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 17:31:23.550] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 17:31:25.523] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 17:31:26.692] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 17:31:33.839] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:31:36.757] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:31:36.815] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:31:36.951] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:31:36.979] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:31:36.995] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:31:37.017] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:31:39.772] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:31:39.772] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:23, action:stdview, controller:item]
+[ 28.01.12 17:31:49.007] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:31:50.475] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:31:50.487] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:31:50.529] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:31:50.543] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:31:50.556] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:31:50.571] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:31:51.994] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:31:51.994] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:25, action:stdview, controller:item]
+[ 28.01.12 17:50:12.045] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 17:50:13.165] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 17:50:13.455] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 17:50:13.465] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 17:50:15.220] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 17:50:16.340] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 17:50:46.133] [http-8080-4] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:50:47.818] [http-8080-4] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:50:47.881] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:50:48.042] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:50:48.068] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:50:48.084] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:50:48.104] [http-8080-4] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:50:52.153] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:50:52.153] [http-8080-4] DEBUG grails.app.controller.ItemController  - params: [id:23, action:stdview, controller:item]
+[ 28.01.12 17:51:02.216] [http-8080-4] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:57:48.304] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 17:57:49.408] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 17:57:49.697] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 17:57:49.711] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 17:57:51.483] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 17:57:52.608] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 17:57:55.570] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:57:57.744] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:57:57.836] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:57:57.970] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:57:57.997] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:57:58.013] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:57:58.034] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:58:00.546] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:58:00.547] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:23, action:stdview, controller:item]
+[ 28.01.12 17:59:34.585] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 17:59:36.132] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 17:59:36.144] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 17:59:36.195] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:59:36.207] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:59:36.219] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 17:59:36.233] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 17:59:42.474] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 17:59:42.474] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 18:22:53.994] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 18:22:55.124] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 18:22:55.418] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 18:22:55.432] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 18:22:57.207] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 18:22:58.330] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 18:23:01.111] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 18:23:02.934] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 18:23:03.028] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 18:23:03.171] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:23:03.201] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:23:03.217] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:23:03.240] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 18:23:06.083] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:23:06.083] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 18:26:39.448] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 18:26:40.568] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 18:26:40.853] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 18:26:40.868] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 18:26:42.619] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 18:26:43.734] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 18:26:46.641] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 18:26:48.701] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 18:26:48.788] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 18:26:48.922] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:26:48.952] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:26:48.968] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:26:48.990] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 18:26:49.131] [http-8080-4] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 18:26:49.149] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 18:26:49.200] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:26:49.214] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:26:49.227] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:26:49.266] [http-8080-4] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 18:26:54.380] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:26:54.380] [http-8080-4] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 18:51:11.546] [http-8080-4] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 18:51:12.902] [http-8080-4] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 18:51:12.930] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 18:51:12.995] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:51:13.011] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:51:13.022] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:51:13.036] [http-8080-4] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 18:51:14.427] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:51:14.427] [http-8080-4] DEBUG grails.app.controller.ItemController  - params: [id:22, action:stdview, controller:item]
+[ 28.01.12 18:51:22.870] [http-8080-4] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 18:51:24.933] [http-8080-4] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 18:51:24.943] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 18:51:24.983] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:51:24.992] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:51:25.002] [http-8080-4] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 18:51:25.014] [http-8080-4] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 18:51:26.515] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:51:26.516] [http-8080-4] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 18:53:34.281] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:53:34.282] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 18:53:47.782] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:53:47.782] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 18:53:48.086] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:53:48.086] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 18:53:48.271] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:53:48.271] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 18:53:48.488] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:53:48.488] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 18:59:11.002] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:59:11.002] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 18:59:11.535] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 18:59:11.535] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 19:03:10.223] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:03:10.223] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 19:03:11.223] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:03:11.223] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 19:03:19.936] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:03:19.936] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 19:04:00.145] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:04:00.145] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 19:04:17.160] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:04:17.160] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 19:04:36.761] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:04:36.762] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 19:07:07.342] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:07:07.342] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:26, action:stdview, controller:item]
+[ 28.01.12 19:07:27.646] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 19:07:27.710] [http-8080-2] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:07:27.726] [http-8080-2] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:07:27.736] [http-8080-2] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:07:27.747] [http-8080-2] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 19:07:30.365] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:07:30.366] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:08:17.638] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:08:17.639] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:08:55.877] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:08:55.878] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:09:00.246] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:09:00.247] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:09:00.864] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:09:00.864] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:09:01.039] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:09:01.039] [http-8080-4] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:09:01.278] [http-8080-4] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:09:01.278] [http-8080-4] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:09:01.408] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:09:01.408] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:09:01.623] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:09:01.623] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:10:09.179] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 19:10:10.370] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 19:10:10.647] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 19:10:10.661] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 19:10:12.522] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 19:10:13.659] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 19:10:39.546] [http-8080-6] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 19:10:42.707] [http-8080-6] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 19:10:42.776] [http-8080-6] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 19:10:42.919] [http-8080-6] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:10:42.947] [http-8080-6] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:10:42.964] [http-8080-6] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:10:42.989] [http-8080-6] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 19:10:45.260] [http-8080-6] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:10:45.260] [http-8080-6] DEBUG grails.app.controller.ItemController  - params: [id:25, action:stdview, controller:item]
+[ 28.01.12 19:15:30.765] [http-8080-6] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:15:30.765] [http-8080-6] DEBUG grails.app.controller.ItemController  - params: [id:25, action:stdview, controller:item]
+[ 28.01.12 19:15:33.408] [http-8080-6] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:15:33.408] [http-8080-6] DEBUG grails.app.controller.ItemController  - params: [id:25, action:stdview, controller:item]
+[ 28.01.12 19:15:33.711] [http-8080-6] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:15:33.711] [http-8080-6] DEBUG grails.app.controller.ItemController  - params: [id:25, action:stdview, controller:item]
+[ 28.01.12 19:15:34.520] [http-8080-6] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:15:34.520] [http-8080-6] DEBUG grails.app.controller.ItemController  - params: [id:25, action:stdview, controller:item]
+[ 28.01.12 19:15:38.441] [http-8080-5] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 19:15:39.589] [http-8080-5] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 19:15:39.600] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 19:15:39.640] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:15:39.651] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:15:39.664] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:15:39.679] [http-8080-5] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 19:15:41.485] [http-8080-5] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 19:15:42.959] [http-8080-5] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 19:15:42.971] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 19:15:43.016] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:15:43.028] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:15:43.038] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:15:43.051] [http-8080-5] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 19:15:45.035] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:15:45.035] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:25, action:stdview, controller:item]
+[ 28.01.12 19:15:53.916] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:15:53.916] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:16:46.515] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 19:16:46.554] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:16:46.562] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:16:46.570] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:16:46.579] [http-8080-5] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 19:16:47.507] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:16:47.507] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:22, action:stdview, controller:item]
+[ 28.01.12 19:17:01.582] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:17:01.582] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:22, action:stdview, controller:item]
+[ 28.01.12 19:20:42.979] [http-8080-6] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:20:42.979] [http-8080-6] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:20:47.406] [http-8080-6] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:20:47.406] [http-8080-6] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:20:48.367] [http-8080-6] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:20:48.367] [http-8080-6] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:23:04.414] [http-8080-6] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:23:04.415] [http-8080-6] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:23:07.265] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:23:07.265] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:24:21.476] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:24:21.476] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:24:22.824] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:24:22.824] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:26:01.841] [main] ERROR grails.spring.BeanBuilder  - WARNING: Your cache provider is set to 'com.opensymphony.oscache.hibernate.OSCacheProvider' in DataSource.groovy, however the classes for this provider cannot be found.
+Using Grails' default cache provider: 'net.sf.ehcache.hibernate.EhCacheProvider'
+[ 28.01.12 19:26:02.995] [main] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/horst/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+[ 28.01.12 19:26:03.285] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+[ 28.01.12 19:26:03.299] [main] WARN  net.sf.ehcache.hibernate.EhCacheProvider  - Could not find a specific ehcache configuration for cache named [org.hibernate.cache.StandardQueryCache]; using defaults.
+[ 28.01.12 19:26:05.083] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Init Bootstrap 
+[ 28.01.12 19:26:06.263] [main] INFO  grails.app.bootstrap.BootStrap  - ================ Bootstrap... finished
+
+ 
+[ 28.01.12 19:26:09.133] [http-8080-3] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 19:26:11.098] [http-8080-3] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 19:26:11.161] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 19:26:11.295] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:26:11.323] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:26:11.339] [http-8080-3] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:26:11.361] [http-8080-3] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 19:26:14.235] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:26:14.235] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:26:21.826] [http-8080-3] DEBUG grails.app.controller.ItemDateController  - action: showDateEditDialog
+[ 28.01.12 19:26:26.695] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:26:26.695] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:32:11.447] [http-8080-5] INFO  grails.app.controller.UserController  - Action: login
+[ 28.01.12 19:32:14.732] [http-8080-5] INFO  grails.app.controller.UserController  - Action: handleLogin
+[ 28.01.12 19:32:14.742] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: homeview
+[ 28.01.12 19:32:14.778] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:32:14.789] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:32:14.801] [http-8080-5] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:32:14.815] [http-8080-5] DEBUG grails.app.controller.ItemController  - Item in homeview: [ID]:7 [Name]:Home [Notes]:null [Clicks]:0 [Dates]:[] [] dates: #0}
+[ 28.01.12 19:32:17.769] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:32:17.769] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:32:22.591] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:32:22.592] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:32:23.568] [http-8080-2] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:32:23.568] [http-8080-2] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:33:38.290] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:33:38.291] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:34:47.461] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:34:47.461] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:34:58.537] [http-8080-5] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:34:58.537] [http-8080-5] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:36:38.402] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:36:38.402] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:36:58.462] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:36:58.463] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:38:37.914] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:38:37.914] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:39:17.608] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:39:17.608] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:39:26.888] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:39:26.888] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:39:27.145] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:39:27.145] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:39:27.380] [http-8080-1] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:39:27.381] [http-8080-1] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:39:27.417] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:39:27.417] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:39:33.814] [http-8080-3] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:39:33.814] [http-8080-3] DEBUG grails.app.controller.ItemController  - params: [id:21, action:stdview, controller:item]
+[ 28.01.12 19:39:45.928] [http-8080-7] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:39:45.929] [http-8080-7] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:39:47.903] [http-8080-7] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:39:47.903] [http-8080-7] DEBUG grails.app.controller.ItemController  - params: [id:27, action:stdview, controller:item]
+[ 28.01.12 19:39:50.752] [http-8080-7] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:39:50.752] [http-8080-7] DEBUG grails.app.controller.ItemController  - params: [id:29, action:stdview, controller:item]
+[ 28.01.12 19:40:49.535] [http-8080-7] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:40:49.536] [http-8080-7] DEBUG grails.app.controller.ItemController  - params: [id:29, action:stdview, controller:item]
+[ 28.01.12 19:41:00.957] [http-8080-7] DEBUG grails.app.controller.ItemDateController  - action: calendarlist
+[ 28.01.12 19:41:00.958] [http-8080-7] DEBUG grails.app.controller.ItemDateController  - params: [id:5, action:calendarlist, controller:itemDate]
+[ 28.01.12 19:41:01.001] [http-8080-7] DEBUG grails.app.service.ItemService  - All Repeat Items: []
+[ 28.01.12 19:41:01.004] [http-8080-7] DEBUG grails.app.controller.ItemDateController  - opening calendarview: 2010-01-05 00:00:00.0  -  2010-01-05 00:00:00.0    type: viewCustom
+[ 28.01.12 19:41:01.004] [http-8080-7] DEBUG grails.app.controller.ItemDateController  - rangeItems: [[ID]:29 [Name]:Schinken [Notes]:null [Clicks]:0 [Dates]:[5] [05.01] dates: #1}, [ID]:27 [Name]:Real [Notes]:Einkaufsliste [Clicks]:0 [Dates]:[3] [02.01 - 08.01] dates: #1}]
+[ 28.01.12 19:41:28.968] [http-8080-9] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:41:28.968] [http-8080-9] DEBUG grails.app.controller.ItemController  - params: [id:29, action:stdview, controller:item]
+[ 28.01.12 19:43:02.036] [http-8080-9] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:43:02.036] [http-8080-9] DEBUG grails.app.controller.ItemController  - params: [id:29, action:stdview, controller:item]
+[ 28.01.12 19:43:04.159] [http-8080-9] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:43:04.159] [http-8080-9] DEBUG grails.app.controller.ItemController  - params: [id:29, action:stdview, controller:item]
+[ 28.01.12 19:43:11.834] [http-8080-9] DEBUG grails.app.controller.ItemController  - action: stdview
+[ 28.01.12 19:43:11.834] [http-8080-9] DEBUG grails.app.controller.ItemController  - params: [id:29, action:stdview, controller:item]
